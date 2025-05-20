@@ -1,11 +1,13 @@
-Project Outline: Full Stack SME Management System Using React and 
-Spring Boot 
-Note: An SME (Small and Medium-sized Enterprise) refers to small-scale businesses such as retail shops 
+Full Stack SME Management System Using React and Spring Boot 
+
+An SME (Small and Medium-sized Enterprise) refers to small-scale businesses such as retail shops 
 or service providers. This system aims to streamline daily operations and enhance business insights for 
 such enterprises. 
+
 Context 
 We are developing a Single Vendor SME Management Software to simplify and automate operations 
 within small retail environments. The system will consist of five integrated modules: 
+
  Inventory Management (with product categorization) 
  Suppliers 
  Point of Sale (POS) 
