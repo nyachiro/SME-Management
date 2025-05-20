@@ -11,11 +11,7 @@ within small retail environments. The system will consist of five integrated mod
  Point of Sale (POS) 
  Customer Management 
  Reports and Financials 
-Each module will be accessed via a responsive React dashboard styled with Tailwind CSS, powered by a 
-robust Spring Boot backend. 
-Preferred Tools 
- Backend Development: IntelliJ IDEA 
- Frontend Development: Visual Studio Code (VS Code) 
+
 Objective 
 Design and implement a modular, user-friendly, and responsive full-stack management system that 
 enables store owners to oversee and control key business functions from a centralized interface. 
@@ -23,23 +19,24 @@ Module Specifications
 1. Inventory Module 
  Display products categorized by type with details such as name, quantity, price, and category. 
  Enable full CRUD operations. 
- Support real-time stock updates upon sales completion. 
+ Support real-time stock updates upon sales completion.
+
 Submodules: 
  Expired Products: Automatically flag expired items and restrict sales. 
  Low Stock Alerts: Notify users when inventory levels fall below a defined threshold. 
-2. Point of Sale (POS) Module 
+3. Point of Sale (POS) Module 
  Provide an intuitive interface for adding items to a cart, viewing totals, and processing sales. 
 On checkout: 
  Automatically reduce inventory based on sold items. 
  Record transaction details: date, items sold, and total amount. 
  Generate and print/download a customer receipt. 
-3. Suppliers Module 
+4. Suppliers Module 
  Link products to specific suppliers. 
  View all suppliers and their associated products. 
  Perform full CRUD operations on suppliers and their records. 
-4. Customers Module 
+5. Customers Module 
  Maintain a searchable, updatable database of customer records based on completed purchases. 
-5. Reports and Financials Module 
+6. Reports and Financials Module 
 Generate critical reports to support data-driven decision-making. 
 Financial Reports will include: 
 a. Income Statements 
